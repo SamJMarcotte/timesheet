@@ -196,7 +196,7 @@
 
         function calculateMileage(day, jobId) {
             const miles = parseFloat(document.getElementById(`${day}-miles-${jobId}`).value);
-            const mileageDollarAmount = miles * 0.67;
+            const mileageDollarAmount = miles * 0.70;
             document.getElementById(`${day}-mileage-dollars-${jobId}`).value = mileageDollarAmount.toFixed(2);
             updateTotals();
         }
